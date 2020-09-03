@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="" />
+    <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/actions/produse/GetProduse.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/actions/produse/GetProduse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/commun/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/commun/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/js/menumaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/menumaker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/produse-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/produse.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gm8439N36RtStm84pPSFM1Qioe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,22 +42,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP/view/produse" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\parteners" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions" />
       <recent name="C:\xampp\htdocs\HNP\HNP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -55,7 +71,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598708212799</updated>
-      <workItem from="1598708214058" duration="27938000" />
+      <workItem from="1598708214058" duration="30444000" />
+      <workItem from="1598941942453" duration="1192000" />
+      <workItem from="1598967849290" duration="710000" />
+      <workItem from="1598969078875" duration="2132000" />
+      <workItem from="1598975201240" duration="4587000" />
+      <workItem from="1599059047006" duration="4065000" />
+      <workItem from="1599116815166" duration="914000" />
+      <workItem from="1599124815090" duration="1562000" />
     </task>
     <servers />
   </component>
@@ -71,18 +94,24 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="718" y="396" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598729587818" />
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1598736884564">
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1599062028137">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598736884564" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599062028137" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1599116814727">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/967.-1080.1920.1050/-953.-1080.1920.1050@0.0.1920.1050" timestamp="1599116814727" />
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598739769940">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598739769940" />
-    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1598735738240">
+    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1599062122080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598735738240" />
+    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599062122080" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1598715920643">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -94,13 +123,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$cata$/xampp/htdocs/VeloceEGusto/js/menuComponent.js</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$cata$/xampp/htdocs/VeloceEGusto/js/menuComponent.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/HNP/js/price-slider.js</url>
+          <line>368</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

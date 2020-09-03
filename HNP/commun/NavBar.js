@@ -1,17 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
     let location = window.location.href.split('/');
-    let home = '<li><a href="index.html">ACASA</a>n"';
-    let produse = '<li><a href="produse.html">PRODUSE</a>"';
-    let produse_detail = '<li><a href="#">ACASA</a>"';
+    let home = '<li><a href="index.html">ACASA</a>';
+    let produse = '<li><a href="produse.html">PRODUSE</a>';
+    let produse_detail = '<li><a href="#">ACASA</a>';
     switch (location[location.length - 1]) {
         case "index.html" :
-            home = '<li class="active"><a href="index.html">ACASA</a>"';
+            home = '<li class="active"><a href="index.html">ACASA</a>';
             break;
         case "produse.html" :
-            produse = '<li class="active"><a href="produse.html">PRODUSE</a>"';
+            produse = '<li class="active"><a href="produse.html">PRODUSE</a>';
             break;
         case "produse-details.html" :
-            produse_detail = '<li class="active"><a href="#">Detalii</a>"';
+            produse_detail = '<li class="active"><a href="#">Detalii</a>';
             break;
 
     }
