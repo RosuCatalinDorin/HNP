@@ -26,6 +26,14 @@ Author: udayraj
     <meta name="MobileOptimized" content="320"/>
     <link rel="icon" type="image/icon" href="images/favicon/favicon.ico"> <!-- favicon-icon -->
     <!-- theme style -->
+    <link
+    href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    rel="stylesheet"
+    id="bootstrap-css"
+  />
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> <!-- bootstrap css -->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/> <!-- fontawesome css -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,500i,700,900" rel="stylesheet"> <!-- google font -->
@@ -36,6 +44,57 @@ Author: udayraj
     <link href="css/style.css" rel="stylesheet" type="text/css"/> <!-- custom css -->
     <!-- end theme style -->
 </head>
+<style>
+    header {
+      position: relative;
+      height: 44vh;
+      min-height: 25rem;
+      width: 100%;
+      overflow: hidden;
+    }
+  
+    header video {
+        /* position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+     z-index: 0; */
+        
+      position: absolute;
+      top: 36%;
+        left: 45%;
+    min-width: 122%;
+    min-height: 71%;
+    width: 384px;
+    height: 533px;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+  
+    header .container {
+      position: relative;
+      z-index: 2;
+    }
+  
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: 0.5;
+      z-index: 1;
+    }
+  
+
+  </style>
 <!-- end head -->
 <!--body start-->
 <body>
@@ -55,8 +114,21 @@ Author: udayraj
 </div>
 <!--  end navigation -->
 <!--  slider -->
-<section id="home-slider" class="home-slider">
+<!-- <section id="home-slider" class="home-slider"> -->
+    <header>
 
+        <video
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="multe"
+          loop="loop"
+        >
+          <source
+            src="cideo/video1.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </header>
 </section>
 <!--  end slider -->
 <!-- solutions  -->
