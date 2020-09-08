@@ -26,18 +26,17 @@ Author: udayraj
     <meta name="MobileOptimized" content="320"/>
     <link rel="icon" type="image/icon" href="images/favicon/favicon.ico"> <!-- favicon-icon -->
     <!-- theme style -->
-    <link
-    href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    rel="stylesheet"
-    id="bootstrap-css"
-  />
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> <!-- bootstrap css -->
+
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/> <!-- fontawesome css -->
+    
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,500i,700,900" rel="stylesheet"> <!-- google font -->
-    <link rel="stylesheet" type="text/css" href="css/menumaker.css"> <!-- menu css -->
+    
+    <link rel="stylesheet" type="text/css" href="css/menumaker.css"> 
+    
     <link href="css/themify-icons.css" rel="stylesheet" type="text/css"/> <!-- themify icons css -->
    <!-- owl carousel css -->
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/> <!-- magnify popup css -->
@@ -63,14 +62,14 @@ Author: udayraj
   height: auto;
      z-index: 0; */
         
-      position: absolute;
-      top: 36%;
-        left: 45%;
-    min-width: 122%;
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 62%;
     min-height: 71%;
     width: 384px;
-    height: 533px;
-      z-index: 0;
+    height: 658px;
+    z-index: 0;
       -ms-transform: translateX(-50%) translateY(-50%);
       -moz-transform: translateX(-50%) translateY(-50%);
       -webkit-transform: translateX(-50%) translateY(-50%);
@@ -110,8 +109,127 @@ Author: udayraj
 
 <!--  end top bar -->
 <!--  navigation -->
-<div class="nav-bar" id="nav-bar">
-</div>
+<div class="nav-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="HNP_IMG/HNP_logoXS.png" alt="logo"
+            /></a>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="info-nav">
+                <div class="info-nav-heading">Phone Number</div>
+                <div class="info-nav-dtl">
+                  <a href="tel:+40 744 774 500">+40 744 774 500</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="info-nav">
+                <div class="info-nav-heading">Email Address:</div>
+                <div class="info-nav-dtl">
+                  <a href="mailto:office@hnp.ro">office@hnp.ro</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="info-nav">
+                <div class="info-nav-heading">Address:</div>
+                <div class="info-nav-dtl">
+                  300714 Timișoara,<br />
+                  Bd. Industriilor, nr. 5
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-10 pad-0">
+          <div class="navigation">
+            <div id="cssmenu">
+              <ul>
+                <li><a href="index.html">ACASA</a></li>
+                <li class="active"><a href="produse.html">PRODUSE</a></li>
+                <li><a href="servicii.html">SERVICII</a></li>
+                <li><a href="#">NOUTATI</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- search -->
+      <div class="search">
+        <div class="container">
+          <input type="search" class="search-box" placeholder="Search" />
+          <a href="#" class="fa fa-times search-close"></a>
+        </div>
+      </div>
+      <!-- end search -->
+      <!-- request btn -->
+      <div class="modal fade request-model" id="request-model" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h5 class="modal-title text-center">Request A Quote</h5>
+            </div>
+            <div class="modal-body request-model-body text-center">
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter Your Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter Your Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Enter Subject"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">
+                  Submit Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end request btn -->
+    </div>
+  </div>
 <!--  end navigation -->
 <!--  slider -->
 <!-- <section id="home-slider" class="home-slider"> -->
@@ -370,7 +488,7 @@ Author: udayraj
 </footer>
 <!--  end footer -->
 <!-- component-->
-<script src="commun/NavBar.js"></script>
+<!-- <script src="commun/NavBar.js"></script> -->
 <script src="commun/Footer.js"></script>
 <script src="actions/home/Slide.js"></script>
 <!-- end component-->
