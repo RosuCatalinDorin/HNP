@@ -1,0 +1,54 @@
+.video-head {
+  position: relative;
+  height: 44vh;
+  min-height: 43rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-head .video {
+  /* position: absolute;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+   z-index: 0; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 62%;
+  min-height: 71%;
+  width: 384px;
+  height: 658px;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-head .container {
+  position: relative;
+  z-index: 2;
+}
+
+.video-head .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .video-head .video {
+    height: 26vh !important;
+    min-height: 20rem !important;
+  }
+}
