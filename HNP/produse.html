@@ -46,6 +46,7 @@ Author: udayraj
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
     <!-- magnify popup css -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/myCss.css" rel="stylesheet" type="text/css"/>
     <!-- custom css -->
     <!-- end theme style -->
   </head>
@@ -74,15 +75,20 @@ Author: udayraj
           </div>
           <div class="col-sm-10 pad-0">
             <div class="navigation">
-              <div id="cssmenu">
-                <img class="ImglogoMenu" src="HNP_IMG/HNP_logoXS.png" alt="logo">
-                <ul>
-                  <li><a href="index.html">ACASA</a></li>
-                  <li class="active" ><a href="produse.html">PRODUSE</a></li>
-                  <li><a href="servicii.html">SERVICII</a></li>
-                  <li><a href="#">NOUTATI</a></li>
-                  <li><a href="#">CONTACT</a></li>
-                </ul>
+              <div class = "contentNavigation" style="display: flex">
+                <div class="logoNavigation">
+                  <img src="HNP_IMG/HNP_logoXS.png" alt="logo">
+                </div>
+                <div id="cssmenu" >
+                  <ul>
+                    <li><a href="index.html">ACASA</a></li>
+                    <li  class="active"><a href="produse.html">PRODUSE</a></li>
+                    <li><a href="servicii.html">SERVICII</a></li>
+                    <li><a href="#">NOUTATI</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                  </ul>
+                </div>
+
               </div>
             </div>
           </div>
@@ -96,7 +102,7 @@ Author: udayraj
         </div>
         <!-- end search -->
         <!-- request btn -->
-        <div class="modal fade request-model" id="request-model" role="dialog">
+<!--        <div class="modal fade request-model" id="request-model" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -151,23 +157,235 @@ Author: udayraj
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
         <!-- end request btn -->
       </div>
     </div>
 
     <!--  end navigation -->
     <!--  page banner -->
-    <section id="page-banner" class="page-banner-main-block">
+<!--    <section id="page-banner" class="page-banner-main-block">
       <h1 class="page-banner-heading text-center">Produse</h1>
-    </section>
+    </section>-->
     <!--  end page banner  -->
     <!--  breadcrumb -->
     <!-- end breadcrumb -->
     <!-- solutions  -->
-    <section id="solutions" class="solutions-main-block">
-      <div class="container" id="containerProduse"></div>
-    </section>
+      <section id="news-list" class="news-list-main-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9">
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/1.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">BASS GMBH & Co. KG.</h3></a>
+                  <ul class="meta-tags">
+                    <li><a href="#">Tarozi</a></li>
+                    <li><a href="#">Freze pentru filetare</a></li>
+                  </ul>
+                  <p>BASS GMBH & Co. KG. este o firmă de familie, foarte dinamică, din localitatea Niederstetten, din sudul Germaniei. BASS produce scule de înaltă calitate pentru filetare, aprovizionând piața germană și cea internațională încă din anul 1947.</p>
+                  <p>Cooperarea dintre BASS și HNP oferă clienților nostri solutii de înaltă performanță, eficiente și cu o largă aplicabilitate. Parteneriatul nostru are ca rezultat satisfacția clienților raportată la servicii și produse de înaltă calitate.</p>
+                  <a href="single-post.html" class="btn btn-default">Vezi produsele</a>
+                </div>
+              </div>
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/2.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">Canela</h3></a>
+                  <ul class="meta-tags">
+                    <li> Scule pentru strunjire</li>
+                    <li><a href="#">Găurire și frezare cu plăcuțe indexabile. </a></li>
+                  </ul>
+                  <p>Grupul Canela a fost înființat în anul 1967 de către Ramon Canela. Activitatea inițială era sudare și prelucrări subcontractate, dar începând cu 1974, producerea sculelor cu plăcuțe indexabile a devenit activitatea de bază. In 1977 a fost fondată firma Microfusió Catalana, demarând turnarea metalelor ca proces adițional în producerea sculelor. Acesta a fost începutul unei mari afaceri de familie, condusă de Ramon Canela împreună cu sotia sa, Maria Rosa Vinyes și cei doi doi copii ai lor, Alex Canela și Silvia Canela. Toti patru continuă în prezent această afacere.  În zilele noastre, Canela este singurul producator de scule de această anvergura, care nu este o societate pe actiuni. Calitatea superioară a produselor Canela este binecunoscută în întreaga lume.</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/Dueci_prod.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">DUECI SRL</h3></a>
+                  <ul class="meta-tags">
+                    <li>Freze</li>
+                    <li><a href="#">Burghie</a></li>
+                    <li>Alezoare</li>
+                  </ul>
+                  <p>DUECI SRL a fost fondată în anul 1995, ca producător de top a sculelor de carbură monobloc: freze, burghie și alezoare.</p>
+                  <p>“Suntem specializați atât în scule standard, cât și în scule produse pe comandă, la cererea clienților. Investim continuu în mașini de ultimă generație, personal super-calificat și selectăm cea mai bună carbură ca materie primă. Toate acestea ne garantează standarde ridicate, prețuri competitive și servicii de calitate pentru clienții nostri”.</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/Eberle_prod.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">J.N. EBERLE & CIE. GMBH</h3></a>
+                  <ul class="meta-tags">
+                    <li>Benzi pentru debitare.</li>
+                  </ul>
+                  <p>J.N. EBERLE & CIE. GMBH – ”Performanță prin precizie”, este lider mondial în producția de benzi de debitare și benzi de otel de înaltă precizie. Din anul 1836 întregul ciclu de fabricație are loc exclusiv în fabrica proprie din Augsburg, Bavaria, motiv pentru care oferă soluții de debitare la tema. EBERLE produce benzi de debitare cu o gama variata de tratamente termice si acoperiri, în funcție de cerința clientilor, ajutandu-i la creșterea productivității și scăderea cheltuielilor. Crezul EBERLE este acela de a găsi împreună banda optimă pentru aplicația și materialul clientului!</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/SCM_prod.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">S.C.M.</h3></a>
+                  <ul class="meta-tags">
+                    <li>Adaptoare și bucse pentru sculele de aschiere</li>
+                  </ul>
+                  <p>S.C.M. este o firmă italiană cu tradiție, fondată în 1972 de frații Eugenio și Angelo Masoero în Murisengo, NV Italiei. Produsul de bază este proiectarea și producția de adaptoare și bucse pentru sculele de aschiere.</p>
+                  <p> SCM este certificată ISO 9001 din anul 2000, fiind prezenți în Europa, SUA, Canada, America de Sus, China și Estul Asiei.</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/smicut_prod.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">SMICUT Suedia</h3></a>
+                  <ul class="meta-tags">
+                    <li>Scule pentru filetare prin strunjire și frezare, cu placate amovibile</li>
+                    <li>Freze de filetare din carbora monobloc</li>
+                  </ul>
+                  <p>Cu 50 de ani în urmă, familia SCHMIDT a început perfecționarea și producția sculelor de aschiere.  Astăzi, în aceasta companie suedeză lucreaza 3 generații. Sculele de filetare au fost dintotdeauna produsul lor de bază, care au reprezentat familia Schmidt.</p>
+                  <p>SMICUT este astăzi focusat pe filetarea prin frezare, ca metoda modernă și eficientă pentru obținerea filetelor.</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/roscamat_prod.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">ROSCAMAT</h3></a>
+                  <ul class="meta-tags">
+                    <li>Masini de filetat ROSCAMAT</li>
+                  </ul>
+                  <p>TECNOSPIRO este parte a grupului SPIROIDE, producător de rulmenți și transmisii mecanice pentru echipamente industriale. Primul brat de filetare a fost fabricat de TECNOSPIRO în anul 1987, pentru a ajuta propria producție.</p>
+                  <p>“Atunci nu era un scop în sine să devenim producatori pentru acest tip de masini, dar cererea pieței a facut să evoluăm în această direcție”.</p>
+                  <p>Simplitatea, versatilitatea, ușurința instalării și cuplării între posturile de lucru transformă mașinile ROSCAMAT în unități indispensabile în producție; sunt foarte utile la prelucrarea pieselor supradimensionale, matrițe de dimensiuni mari, care pot tine și loc de masă incorporată.</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/Walter_prod.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">WALTER TOOLS</h3></a>
+                  <ul class="meta-tags">
+                    <li>Scule pentru strunjire, găurire, frezare.</li>
+                  </ul>
+                  <p>Doriti să vă aduceți tehnologia la nivelul următor? Este usor cu soluțiile care se situează mult deasupra standardelor.</p>
+                  <p>Fiecare dintre inovațiile Walter reprezintă experiența noastră colectivă și expertiza în inginerie – pentru ca dumneavoastră să va puteți extinde continuu succesul și progresele.</p>
+                  <p>“Optați pentru soluțiile competente oferite de HNP Tools – distribuitor unic Walter pentru zona de V și S-V a României”.</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+
+              <div class="news-list-block">
+                <div class="news-list-img">
+                  <a href="single-post.html"><img src="HNP_IMG/produse/rime_prod.jpg" class="img-responsive" alt="news"></a>
+                </div>
+                <div class="news-list-dtl">
+                  <a href="single-post.html"><h3 class="news-list-heading">Rime</h3></a>
+                  <ul class="meta-tags">
+                    <li>Freze, alezoare și scule speciale din HSS și carbură metalică.</li>
+                  </ul>
+                  <p>Fondată în anul 1962 de Dl. Massimiliano Ettori, Rime SRL și-a început activitatea producând scule așchietoare pentru industria de armament. Firma este condusă în prezent de Andrea Ettori, fiul fondatorului, iar gama de freze produse s-a dezvoltat continuu, adresându-se sectoarelor: energetic, construcții de mașini, armament, aeronautică, matrițerie.</p>
+                  <p>Datorită parcului modern de mașini unelte, firma garantează clienților săi calitate și flexibilitate.</p>
+                  <a href="single-post.html" class="btn btn-default">Read More</a>
+                </div>
+              </div>
+
+            <!--  <nav aria-label="Page navigation" class="news-list-pagination">
+                <ul class="pagination">
+                  <li>
+                    <a href="#" aria-label="Previous">
+                      <span aria-hidden="true"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                    </a>
+                  </li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                      <span aria-hidden="true"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>-->
+            </div>
+            <div class="col-sm-3">
+              <div class="news-list-sidebar">
+                <div class="sidebar-widget search-widget">
+                  <form class="search-form" method="post" action="#">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="search" placeholder="Search Here.....">
+                      <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </div>
+                  </form>
+                </div>
+                <div class="sidebar-widget rct-news-widget">
+                  <h6 class="widget-heading">Recent News</h6>
+                  <ul>
+                    <li>
+                      <a href="#"><h6 class="rct-news-title">Three Key Trends That Will Define the Future of Wind Industry</h6></a>
+                      <div class="date">August 22, 2016</div>
+                    </li>
+                    <li>
+                      <a href="#"><h6 class="rct-news-title">Marching Towards a Greener Future Enabled by GE Technology</h6></a>
+                      <div class="date">August 22, 2016</div>
+                    </li>
+                    <li>
+                      <a href="#"><h6 class="rct-news-title">The Path to Manufacturing Brilliance to Meet Global Energy</h6></a>
+                      <div class="date">August 22, 2016</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="sidebar-widget cat-widget">
+                  <h6 class="widget-heading">Categories</h6>
+                  <ul>
+                    <li><a href="#">Manufacturing</a></li>
+                    <li><a href="#">Chemical</a></li>
+                    <li><a href="#">Construction</a></li>
+                    <li><a href="#">Energy</a></li>
+                    <li><a href="#">Materials</a></li>
+                  </ul>
+                </div>
+                <div class="sidebar-widget tag-widget">
+                  <h6 class="widget-heading">Tags</h6>
+                  <ul>
+                    <li><a href="#">Future</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Factory</a></li>
+                    <li><a href="#">Construction</a></li>
+                    <li><a href="#">Biopolymers</a></li>
+                    <li><a href="#">Materials</a></li>
+                    <li><a href="#">Eco</a></li>
+                    <li><a href="#">Aluminum</a></li>
+                    <li><a href="#">Marine</a></li>
+                    <li><a href="#">Wind Energy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <!-- end solutions  -->
     <!--  call out -->
     <!--  end call out -->

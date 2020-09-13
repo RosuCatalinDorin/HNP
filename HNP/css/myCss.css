@@ -10,10 +10,22 @@
     display: flex;
 }
 
+.logoContainer, .detailsContainer {
+    display: none;
+}
 
 
 @media only screen and (max-width: 600px) {
     .logoNavigation{
         display: none;
+    }
+    .logoContainer{
+        display: block;
+        padding-top: 30px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .nav-bar {
+        padding: 0;
     }
 }

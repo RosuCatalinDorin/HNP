@@ -2734,11 +2734,11 @@
 		}
 
 		// create controls container if needed
-		if (!options.navContainer || !options.dotsContainer) {
+	/*	if (!options.navContainer || !options.dotsContainer) {
 			this._controls.$container = $('<div>')
 				.addClass(options.controlsClass)
 				.appendTo(this.$element);
-		}
+		}*/
 
 		// create DOM structure for absolute navigation
 		this._controls.$indicators = options.dotsContainer ? $(options.dotsContainer)

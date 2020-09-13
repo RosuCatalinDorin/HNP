@@ -6,4 +6,4 @@ function hidePreloader() {
     $('.status').fadeOut();
     $('.preloader').delay(350).fadeOut('slow');
 }
-hidePreloader()
+hidePreloader();
