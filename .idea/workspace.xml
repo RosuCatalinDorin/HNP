@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/js/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/actions/produse/GetProduse.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/actions/produse/GetProduse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/commun/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/commun/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l1.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l2.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l3.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l4.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l5.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l6.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l7.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l8.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l9.png" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/HNP_IMG/parteners/l9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/css/myCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/myCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/css/videothem.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/videothem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/js/menumaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/menumaker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/produse-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/produse.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,20 +53,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP/view/produse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HNP" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\parteners" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions" />
       <recent name="C:\xampp\htdocs\HNP\HNP" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -79,6 +89,8 @@
       <workItem from="1599059047006" duration="4065000" />
       <workItem from="1599116815166" duration="914000" />
       <workItem from="1599124815090" duration="2160000" />
+      <workItem from="1599755081523" duration="1168000" />
+      <workItem from="1600006186799" duration="3784000" />
     </task>
     <servers />
   </component>
@@ -86,6 +98,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1080" y="-496" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600008451899">
+      <screen x="-1080" y="-1096" width="1080" height="1890" />
+    </state>
+    <state x="-1080" y="-496" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600008451899" />
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598733847401">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -94,9 +110,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="718" y="396" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598729587818" />
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1599062028137">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1028" y="-930" width="977" height="1559" key="DiffContextDialog" timestamp="1600007300620">
+      <screen x="-1080" y="-1096" width="1080" height="1890" />
     </state>
+    <state x="-1028" y="-930" width="977" height="1559" key="DiffContextDialog/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600007300620" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598736884564" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599062028137" />
     <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1599116814727">

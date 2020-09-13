@@ -42,6 +42,7 @@ Author: udayraj
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/> <!-- magnify popup css -->
     <link href="css/style.css" rel="stylesheet" type="text/css"/> 
     <link href="css/videothem.css" rel="stylesheet" type="text/css"/>
+    <link href="css/myCss.css" rel="stylesheet" type="text/css"/>
     <!-- custom css -->
     <!-- end theme style -->
 </head>
@@ -63,52 +64,29 @@ Author: udayraj
 <div class="nav-bar">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 logoContainer" >
           <div class="logo">
             <a href="index.html"
               ><img src="HNP_IMG/HNP_logoXS.png" alt="logo"
             /></a>
           </div>
         </div>
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="info-nav">
-                <div class="info-nav-heading">Phone Number</div>
-                <div class="info-nav-dtl">
-                  <a href="tel:+40 744 774 500">+40 744 774 500</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="info-nav">
-                <div class="info-nav-heading">Email Address:</div>
-                <div class="info-nav-dtl">
-                  <a href="mailto:office@hnp.ro">office@hnp.ro</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="info-nav">
-                <div class="info-nav-heading">Address:</div>
-                <div class="info-nav-dtl">
-                  300714 Timișoara,<br />
-                  Bd. Industriilor, nr. 5
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col-sm-10 pad-0">
           <div class="navigation">
-            <div id="cssmenu">
-              <ul>
-                <li><a href="index.html">ACASA</a></li>
-                <li class="active"><a href="produse.html">PRODUSE</a></li>
-                <li><a href="servicii.html">SERVICII</a></li>
-                <li><a href="#">NOUTATI</a></li>
-                <li><a href="#">CONTACT</a></li>
-              </ul>
+            <div class = "contentNavigation" style="display: flex">
+               <div class="logoNavigation">
+                   <img src="HNP_IMG/HNP_logoXS.png" alt="logo">
+               </div>
+                <div id="cssmenu" >
+                    <ul>
+                        <li class="active"><a href="index.html">ACASA</a></li>
+                        <li><a href="produse.html">PRODUSE</a></li>
+                        <li><a href="servicii.html">SERVICII</a></li>
+                        <li><a href="#">NOUTATI</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+
             </div>
           </div>
         </div>
@@ -241,11 +219,85 @@ Author: udayraj
 </section>
 <!-- end solutions  -->
 <!-- featured product  -->
+<!-- end featured product  -->
+<!-- quote -->
+<!-- end quote  -->
+<!-- about -->
+<section id="about" class="about-main-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="about-block">
+                    <h3 class="about-heading">Despre <a style="color: #ECC53F">HNP</a></h3>
+                    <p>Suntem unici distribuitori pe piața din România ai reputaților producători BASS, EBERLE, SCM,
+                        SMICUT, SPECIALINSERT, TECNOSPIRO si parteneri WALTER pentru zona de Vest și Sud Vest a
+                        României.</p> <br>
+                    <p>In cadrul grupului HNP activează cele două companii: HNP Techdevices și HNP Tools.</p>
+                    <br>
+                    <p>Compania noastră a întreprins în anul 2011 demersul voluntar de certificare pentru implementarea
+                        cu success a Sistemul de Management al Calității conform standardului internațional ISO
+                        9001:2008.</p>
+                    <a href="about-us.html" class="plain-btn">Mai multe</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="about-features-block">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="about-features-icon">
+                                <span class="ti-ruler-pencil"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="about-features-dtl">
+                                <h6 class="about-features-heading">Soluții tehnice</h6>
+                                <p>Oferim soluții tehnice optime și ”scule la tema”, acolo unde situația o impune, prin
+                                    relația directă cu producatori specializați.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features-block">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="about-features-icon">
+                                <span class="ti-user"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="about-features-dtl">
+                                <h6 class="about-features-heading">Consulțanta</h6>
+                                <p>Oferim consultanță tehnică permanentă, pentru optimizarea procesului de producție</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features-block">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="about-features-icon">
+                                <span class="ti-medall"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="about-features-dtl">
+                                <h6 class="about-features-heading">Experiența</h6>
+                                <p>Colaborăm cu ingineri cu un înalt grad de pregătire în domeniu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 hidden-sm">
+                <div class="about-img">
+                    <img src="HNP_IMG/hnp-ofiice/caruso2-1024x683.jpg" class="img-responsive" alt="about">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="featured" class="featured-main-block">
     <div class="section">
-        <div class="container">
-            <h3 class="section-heading">Unelte unice pentru nevoi specifice</h3>
-        </div>
     </div>
     <div class="container">
         <div id="featured-slider" class="featured-slider">
@@ -337,83 +389,6 @@ Author: udayraj
                 <div class="featured-dtl">
                     <h5 class="featured-heading">Research of Aviation Materials</h5>
                     <a href="projects-details.html" class="btn btn-default">View Project</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end featured product  -->
-<!-- quote -->
-<!-- end quote  -->
-<!-- about -->
-<section id="about" class="about-main-block">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <div class="about-block">
-                    <h3 class="about-heading">Despre <a style="color: #ECC53F">HNP</a></h3>
-                    <p>Suntem unici distribuitori pe piața din România ai reputaților producători BASS, EBERLE, SCM,
-                        SMICUT, SPECIALINSERT, TECNOSPIRO si parteneri WALTER pentru zona de Vest și Sud Vest a
-                        României.</p> <br>
-                    <p>In cadrul grupului HNP activează cele două companii: HNP Techdevices și HNP Tools.</p>
-                    <br>
-                    <p>Compania noastră a întreprins în anul 2011 demersul voluntar de certificare pentru implementarea
-                        cu success a Sistemul de Management al Calității conform standardului internațional ISO
-                        9001:2008.</p>
-                    <a href="about-us.html" class="plain-btn">Mai multe</a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="about-features-block">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <div class="about-features-icon">
-                                <span class="ti-ruler-pencil"></span>
-                            </div>
-                        </div>
-                        <div class="col-xs-9">
-                            <div class="about-features-dtl">
-                                <h6 class="about-features-heading">Soluții tehnice</h6>
-                                <p>Oferim soluții tehnice optime și ”scule la tema”, acolo unde situația o impune, prin
-                                    relația directă cu producatori specializați.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-features-block">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <div class="about-features-icon">
-                                <span class="ti-user"></span>
-                            </div>
-                        </div>
-                        <div class="col-xs-9">
-                            <div class="about-features-dtl">
-                                <h6 class="about-features-heading">Consulțanta</h6>
-                                <p>Oferim consultanță tehnică permanentă, pentru optimizarea procesului de producție</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-features-block">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <div class="about-features-icon">
-                                <span class="ti-medall"></span>
-                            </div>
-                        </div>
-                        <div class="col-xs-9">
-                            <div class="about-features-dtl">
-                                <h6 class="about-features-heading">Experiența</h6>
-                                <p>Colaborăm cu ingineri cu un înalt grad de pregătire în domeniu.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 hidden-sm">
-                <div class="about-img">
-                    <img src="HNP_IMG/hnp-ofiice/caruso2-1024x683.jpg" class="img-responsive" alt="about">
                 </div>
             </div>
         </div>

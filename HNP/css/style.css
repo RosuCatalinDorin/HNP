@@ -424,7 +424,6 @@ label span {
 /*===== Navigation =====*/
 /* ================================= */
 .nav-bar {
-  padding: 45px 0 0;
   background: -moz-linear-gradient(
       to top,
       rgba(0, 0, 0, 0.05),
@@ -883,9 +882,7 @@ label span {
 /*===== Featured Product =====*/
 /* ================================= */
 .featured-main-block {
-  background-color: #333;
   position: relative;
-  padding-bottom: 80px;
 }
 .featured-main-block .section {
   background-color: #222;

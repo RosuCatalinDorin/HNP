@@ -1,0 +1,19 @@
+#cssmenu > ul > li {
+    float: left;
+    margin-left: 4.8%;
+
+}
+#cssmenu{
+    width: 80%;
+}
+.contentNavigation{
+    display: flex;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .logoNavigation{
+        display: none;
+    }
+}
