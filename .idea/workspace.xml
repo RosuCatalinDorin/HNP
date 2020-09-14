@@ -46,17 +46,17 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HNP\HNP" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\parteners" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HNP" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -80,7 +80,7 @@
       <workItem from="1599755081523" duration="1168000" />
       <workItem from="1600006186799" duration="14229000" />
       <workItem from="1600067026515" duration="596000" />
-      <workItem from="1600074733568" duration="3766000" />
+      <workItem from="1600074733568" duration="6641000" />
     </task>
     <servers />
   </component>
@@ -114,11 +114,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598739769940" />
-    <state x="656" y="257" width="1080" height="537" key="find.popup" timestamp="1600097395558">
+    <state x="656" y="257" width="1080" height="537" key="find.popup" timestamp="1600106113192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-711" y="-633" width="607" height="965" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600022501985" />
-    <state x="656" y="257" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.0.1920.1050" timestamp="1600097395558" />
+    <state x="656" y="257" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.0.1920.1050" timestamp="1600106113192" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598735738240" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599062122080" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1598715920643">
