@@ -3,6 +3,10 @@
     margin-left: 4.8%;
 
 }
+.navigation {
+    background-color: white;
+    color: #0b0b0b;
+}
 #cssmenu{
     width: 80%;
 }
@@ -13,7 +17,17 @@
 .logoContainer, .detailsContainer {
     display: none;
 }
-
+#cssmenu > ul > li > a {
+    color: #0b0b0b;
+}
+#cssmenu.small-screen #menu-button {
+    color: #0b0b0b;
+}
+@media (max-width: 768px){
+    #cssmenu.small-screen #menu-button:after {
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
 
 @media only screen and (max-width: 600px) {
     .logoNavigation{
