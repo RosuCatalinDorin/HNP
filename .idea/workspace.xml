@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HNP/css/servicii.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/js/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/css/myCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/myCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/produse.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/servicii.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/servicii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/js/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/js/owl.carousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,22 +47,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HTML\js" />
+      <recent name="C:\xampp\htdocs\HNP\HNP" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\parteners" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HNP\HNP" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -80,7 +87,9 @@
       <workItem from="1599755081523" duration="1168000" />
       <workItem from="1600006186799" duration="14229000" />
       <workItem from="1600067026515" duration="596000" />
-      <workItem from="1600074733568" duration="6641000" />
+      <workItem from="1600074733568" duration="8718000" />
+      <workItem from="1600271226156" duration="594000" />
+      <workItem from="1600358471499" duration="8762000" />
     </task>
     <servers />
   </component>
@@ -114,11 +123,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598739769940" />
-    <state x="656" y="257" width="1080" height="537" key="find.popup" timestamp="1600106113192">
+    <state x="656" y="257" width="1080" height="537" key="find.popup" timestamp="1600595667477">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-711" y="-633" width="607" height="965" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600022501985" />
-    <state x="656" y="257" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.0.1920.1050" timestamp="1600106113192" />
+    <state x="656" y="257" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.0.1920.1050" timestamp="1600595667477" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598735738240" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599062122080" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1598715920643">
