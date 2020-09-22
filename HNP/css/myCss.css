@@ -24,6 +24,11 @@
     height: 58px;
 }
 
+.address-block {
+    background-color: #ecc53f;
+    margin-top: 0;
+}
+
 #cssmenu > ul > li:hover, #cssmenu > ul > li.active {
     border-top: 4px solid #ecc53f;
     border-bottom: none;
