@@ -4,6 +4,13 @@
 
 }
 
+.contactTet {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
 .navigation {
     background-color: transparent;
     color: #0b0b0b;
@@ -66,6 +73,25 @@
     }
 }
 
+@media only screen and (max-width: 1500px) {
+    .logoNavigation {
+        padding-left: 11.8%;
+    }
+    #cssmenu > ul > li {
+        float: left;
+        margin-left: 1.4%;
+
+    }
+}
+@media only screen and (min-width: 1400px) {
+
+    #cssmenu > ul > li {
+        float: left;
+        margin-left: 3%;
+
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .logoNavigation {
         display: none;
@@ -89,7 +115,7 @@
 
 @media only screen and (max-width: 1024px) {
     #cssmenu > ul > li {
-        margin-left: 3.4%;
+        margin-left: 0.4%;
 
     }
 }
