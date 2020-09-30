@@ -32,8 +32,11 @@
 }
 
 .address-block {
-    background-color: #ecc53f;
+    background-color: transparent;
     margin-top: 0;
+}
+.address-top-block{
+    background-color: #ecc53f52;
 }
 
 #cssmenu > ul > li:hover, #cssmenu > ul > li.active {
@@ -92,6 +95,7 @@
     }
 }
 
+/*
 @media only screen and (max-width: 600px) {
     .logoNavigation {
         display: none;
@@ -106,17 +110,172 @@
         background-color: white;
     }
 }
+*/
 
 @media only screen and (min-width: 1000px) {
     .nav-bar {
         padding: 0;
     }
 }
+@media only screen and (min-width: 769px) {
+    .video-head .video {
+        min-width: 74.4%;
+    }
+    .video-head{
+        height: 41vh;
+    }
+}
 
-@media only screen and (max-width: 1024px) {
+/*@media only screen and (max-width: 1024px) {
+    .video-head .video {
+        min-width: 72.4%;
+    }
     #cssmenu > ul > li {
         margin-left: 0.4%;
 
     }
+    .video-head{
+        min-height: 41rem;
+    }
+}*/
+
+
+@media (max-width: 768px) {
+    #cssmenu.small-screen #menu-button:before {
+        background: #000;
+    }
+    #cssmenu.small-screen #menu-button.menu-opened:before {
+        background: #000;
+    }
+    #cssmenu.small-screen #menu-button.menu-opened:after {
+        background: #000;
+    }
 }
+
+
+
+
+
+
+
+/* ----------- 0 - 450px ----------- */
+@media screen
+and (max-width: 450px){
+    .video-head .video {
+        min-width: 62%;
+        min-height: 71%;
+    }
+    .video-head{
+        height: 26vh;
+        min-height: 20rem;
+    }
+    .logoNavigation {
+        display: none;
+    }
+
+    .logoContainer {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .contentNavigation {
+        background-color: white;
+    }
+}
+
+/* ----------- 450 - 650px ----------- */
+@media screen
+and (min-width: 451px)
+and (max-width: 650px){
+    .video-head .video {
+        min-width: 62%;
+        min-height: 71%;
+    }
+    .video-head{
+        height: 26vh;
+        min-height: 20rem;
+    }
+    .logoNavigation {
+        display: none;
+    }
+
+    .logoContainer {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .contentNavigation {
+        background-color: white;
+    }
+}
+
+/* ----------- 650px - 950px ----------- */
+@media screen
+and (min-width: 651px)
+and (max-width: 950px){
+    .video-head .video {
+        min-width: 62%;
+        min-height: 71%;
+    }
+    .video-head{
+        height: 26vh;
+        min-height: 20rem;
+    }
+    .logoNavigation {
+        display: none;
+    }
+
+    .logoContainer {
+        display: none;
+        padding-top: 0;
+    }
+
+    .contentNavigation {
+        background-color: white;
+    }
+}
+
+/* ----------- 950px - 1200px ----------- */
+@media screen
+and (min-width: 951px)
+and (max-width: 1200px){
+    .logoNavigation {
+        padding-left: 10.8%;
+    }
+    #cssmenu > ul > li {
+        float: left;
+        margin-left: 0.7%;
+
+    }
+}
+@media screen
+and (min-width: 768px)
+and (max-width: 769px){
+    .logoContainer {
+        display: block;
+        padding-top: 8px;
+        padding-left: 37%;
+    }
+}
+
+
+/* ----------- 1200px + ----------- */
+@media screen
+and (min-width: 1201px){
+    .logoNavigation {
+        padding-left: 4.2%;
+    }
+    #cssmenu > ul > li {
+        float: left;
+        margin-left: 6.1%;
+
+    }
+}
+}
+
+
+
+
+
+
 

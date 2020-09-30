@@ -4,8 +4,10 @@
     <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/css/myCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/myCss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/produse.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/servicii.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/servicii.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +49,18 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HNP\HNP" />
-      <recent name="C:\xampp\htdocs\HNP\HTML\js" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\parteners" />
       <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions\produse" />
       <recent name="C:\xampp\htdocs\HNP\HNP\actions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HNP" />
+      <recent name="C:\xampp\htdocs\HNP\HTML\js" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -93,7 +95,8 @@
       <workItem from="1601054718186" duration="3115000" />
       <workItem from="1601392205063" duration="4941000" />
       <workItem from="1601450262779" duration="20000" />
-      <workItem from="1601479643723" duration="3295000" />
+      <workItem from="1601479643723" duration="3812000" />
+      <workItem from="1601486024779" duration="6735000" />
     </task>
     <servers />
   </component>
