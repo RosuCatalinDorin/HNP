@@ -78,7 +78,7 @@
 
 @media only screen and (max-width: 1500px) {
     .logoNavigation {
-        padding-left: 11.8%;
+        /*padding-left: 11.8%;*/
     }
     #cssmenu > ul > li {
         float: left;
@@ -94,6 +94,11 @@
 
     }
 }
+.video-container{
+    width: 100%;
+}
+
+
 
 /*
 @media only screen and (max-width: 600px) {
@@ -119,7 +124,6 @@
 }
 @media only screen and (min-width: 769px) {
     .video-head .video {
-        min-width: 74.4%;
     }
     .video-head{
         height: 41vh;
@@ -162,7 +166,6 @@
 @media screen
 and (max-width: 450px){
     .video-head .video {
-        min-width: 62%;
         min-height: 71%;
     }
     .video-head{
@@ -172,14 +175,15 @@ and (max-width: 450px){
     .logoNavigation {
         display: none;
     }
-
     .logoContainer {
         display: block;
         padding-top: 30px;
     }
-
     .contentNavigation {
         background-color: white;
+    }
+    .video-container {
+        margin: 0 auto;
     }
 }
 
@@ -188,7 +192,7 @@ and (max-width: 450px){
 and (min-width: 451px)
 and (max-width: 650px){
     .video-head .video {
-        min-width: 62%;
+
         min-height: 71%;
     }
     .video-head{
@@ -214,7 +218,6 @@ and (max-width: 650px){
 and (min-width: 651px)
 and (max-width: 950px){
     .video-head .video {
-        min-width: 62%;
         min-height: 71%;
     }
     .video-head{
@@ -240,7 +243,7 @@ and (max-width: 950px){
 and (min-width: 951px)
 and (max-width: 1200px){
     .logoNavigation {
-        padding-left: 10.8%;
+        /*padding-left: 10.8%;*/
     }
     #cssmenu > ul > li {
         float: left;
@@ -263,7 +266,7 @@ and (max-width: 769px){
 @media screen
 and (min-width: 1201px){
     .logoNavigation {
-        padding-left: 4.2%;
+/*        padding-left: 4.2%;*/
     }
     #cssmenu > ul > li {
         float: left;
