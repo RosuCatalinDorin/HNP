@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HNP/actions/contact/contact-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/actions/contact/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/js/createBodyRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/js/makeRekuest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/admin/actions/news/news.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/admin/newes/news.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/admin/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/css/floatNotifcation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/lib/JsValidation/js-form-validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/lib/JsValidation/js-form-validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/lib/notifix/dist/notiflix-2.5.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/lib/notifix/dist/notiflix-2.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/lib/notifix/dist/notiflix-aio-2.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/tes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/actions/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/actions/contact/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/cideo/video1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/videos/video1.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/js/createBodyRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/createBodyRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/js/makeRekuest.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/makeRekuest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -33,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gm8439N36RtStm84pPSFM1Qioe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,24 +58,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP/vertical-responsive-menu-master/demo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\parteners" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\actions\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\actions" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\admin\actions\news" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\admin\actions" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\admin\newes" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\admin" />
+      <recent name="C:\xampp\htdocs\HNP\HNP" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HNP\vertical-responsive-menu-master\demo" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\lib\JsValidation" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\lib\notifix" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\lipbs\notification" />
       <recent name="C:\xampp\htdocs\HNP\HNP\js" />
-      <recent name="C:\xampp\htdocs\HNP\HNP" />
-      <recent name="C:\xampp\htdocs\HNP\HTML\js" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\HNP_IMG\featured" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -98,7 +111,7 @@
       <workItem from="1601392205063" duration="4941000" />
       <workItem from="1601450262779" duration="20000" />
       <workItem from="1601479643723" duration="3812000" />
-      <workItem from="1601486024779" duration="26310000" />
+      <workItem from="1601486024779" duration="45176000" />
     </task>
     <servers />
   </component>
@@ -110,6 +123,10 @@
       <screen x="-1080" y="-1096" width="1080" height="1890" />
     </state>
     <state x="-1080" y="-496" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600008451899" />
+    <state x="-786" y="-348" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601761718361">
+      <screen x="-1080" y="-1096" width="1080" height="1890" />
+    </state>
+    <state x="-786" y="-348" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1601761718361" />
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598733847401">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -124,6 +141,10 @@
     <state x="-1028" y="-930" width="977" height="1559" key="DiffContextDialog/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600007300620" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598736884564" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599062028137" />
+    <state x="-760" y="-396" key="FileChooserDialogImpl" timestamp="1601732427947">
+      <screen x="-1080" y="-1096" width="1080" height="1890" />
+    </state>
+    <state x="-760" y="-396" key="FileChooserDialogImpl/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1601732427947" />
     <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1601480820707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -135,10 +156,11 @@
     </state>
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598739769940" />
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1601481659624" />
-    <state x="656" y="257" width="1080" height="537" key="find.popup" timestamp="1600595667477">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="656" y="-838" width="1080" height="537" key="find.popup" timestamp="1601734219208">
+      <screen x="0" y="-1095" width="1920" height="1050" />
     </state>
     <state x="-711" y="-633" width="607" height="965" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600022501985" />
+    <state x="656" y="-838" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.-1095.1920.1050" timestamp="1601734219208" />
     <state x="656" y="257" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.0.1920.1050" timestamp="1600595667477" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598735738240" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599062122080" />
@@ -146,9 +168,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598715920643" />
-    <state x="623" y="-868" width="672" height="678" key="search.everywhere.popup" timestamp="1601671448496">
-      <screen x="0" y="-1095" width="1920" height="1050" />
+    <state x="-730" y="-687" width="672" height="1221" key="search.everywhere.popup" timestamp="1601760023916">
+      <screen x="-1080" y="-1096" width="1080" height="1890" />
     </state>
+    <state x="-730" y="-687" width="672" height="1221" key="search.everywhere.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1601760023916" />
     <state x="623" y="-868" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.-1095.1920.1050" timestamp="1601671448496" />
   </component>
   <component name="XDebuggerManager">

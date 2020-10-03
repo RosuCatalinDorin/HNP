@@ -8,12 +8,9 @@ Template Name: Industrial - Industry HTML Template
 Version: 1.0.0
 Author: udayraj
 -->
-<!--[if IE 8]>
-<html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]>
-<html lang="en" class="ie9 no-js"> <![endif]-->
+
 <!--[if !IE]> -->
-<html lang="en">
+<html lang="ro">
 <!-- <![endif]-->
 <!-- head -->
 <head>
@@ -28,14 +25,15 @@ Author: udayraj
     <!-- theme style -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> <!-- bootstrap css -->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/> <!-- fontawesome css -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,500i,700,900"
-          rel="stylesheet"> <!-- google font -->
+
     <link rel="stylesheet" type="text/css" href="css/menumaker.css"> <!-- menu css -->
     <link href="css/themify-icons.css" rel="stylesheet" type="text/css"/> <!-- themify icons css -->
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/> <!-- owl carousel css -->
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/> <!-- magnify popup css -->
     <link href="css/style.css" rel="stylesheet" type="text/css"/> <!-- custom css -->
     <link href="css/myCss.css" rel="stylesheet" type="text/css"/>
+    <link href="css/floatNotifcation.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="lib/notifix/dist/notiflix-2.5.0.min.css">
 
     <!-- end theme style -->
 </head>
@@ -43,12 +41,7 @@ Author: udayraj
 <!--body start-->
 <body>
 <!-- preloader -->
-<div class="preloader">
-    <div class="status">
-        <div class="status-message">
-        </div>
-    </div>
-</div>
+
 <!-- end preloader -->
 <!--  top bar -->
 <!--  end top bar -->
@@ -107,7 +100,7 @@ Author: udayraj
                         <h5 class="modal-title text-center">Request A Quote</h5>
                     </div>
                     <div class="modal-body request-model-body text-center">
-                        <form>
+                        <form id="contact-form">
                             <div class="form-group">
                                 <input
                                         type="text"
@@ -122,6 +115,7 @@ Author: udayraj
                                         class="form-control"
                                         id="email"
                                         placeholder="Enter Your Email"
+                                        data-rule="required|email"
                                 />
                             </div>
                             <div class="form-group">
@@ -140,7 +134,7 @@ Author: udayraj
                           placeholder="Message"
                   ></textarea>
                             </div>
-                            <button type="submit" class="btn btn-default">
+                            <button type="button" class="btn btn-default">
                                 Submit Request
                             </button>
                         </form>
@@ -176,6 +170,7 @@ Author: udayraj
 <!--  map -->
 <!--  end map -->
 <section id="contact" class="contact-page-main-block">
+
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -295,7 +290,7 @@ Author: udayraj
                     <h5 class="contact-heading">Trimite un mesaj</h5>
                     <p>Te rugăm să completezi câmpurile de mai jos pentru a ne trimite un mesaj.</p>
                 </div>
-                <form class="contact-form">
+                <form name ="form" id="contact-form">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
@@ -333,7 +328,7 @@ Author: udayraj
                             </div>
                         </div>
                     </div>
-                    <button type="button" id ="sendContact">Send Message</button>
+                    <input type="button"  id ="sendContact"  value="Submit"/>
                 </form>
 
             </div>
@@ -401,8 +396,11 @@ Author: udayraj
         </div>
     </div>
 </section>
+
+
 <!-- end contact -->
 <!--  footer -->
+
 <footer id="footer" class="footer-main-block" style="background-image: url('images/bg/footer-bg.jpg')">
 
 </footer><!--  end footer -->
@@ -410,27 +408,26 @@ Author: udayraj
 <!-- jquery -->
 <script type="text/javascript" src="js/jquery.min.js"></script> <!-- jquery library js -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- bootstrap js -->
-<script type="text/javascript" src="js/menumaker.js"></script> <!-- menumaker js -->
-<script type="text/javascript" src="js/owl.carousel.js"></script> <!-- owl carousel js -->
-<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script> <!-- magnify popup js -->
-<script type="text/javascript" src="js/jquery.elevatezoom.js"></script> <!-- product zoom js -->
+<!-- product zoom js -->
 <script type="text/javascript" src="js/jquery.ajaxchimp.js"></script> <!-- mail chimp js -->
-<script type="text/javascript" src="js/smooth-scroll.js"></script> <!-- smooth scroll js -->
-<script type="text/javascript" src="js/waypoints.min.js"></script>
-<!-- facts count js required for jquery.counterup.js file -->
-<script type="text/javascript" src="js/jquery.counterup.js"></script> <!-- facts count js-->
-<script type="text/javascript" src="js/price-slider.js"></script> <!-- price slider / filter js-->
-<script type="text/javascript" src="js/theme.js"></script> <!-- custom js -->
-<script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxkZ2_PhdI36492kpbmLcFvC6z08yEC6M&callback=initMap">
-</script>
+<!-- facts count js required for jquery.counterup.js file --><!-- facts count js-->
 <!-- My JavaScript -->
 
 <script type="text/javascript" src="js/makeRekuest.js"></script> <!-- bootstrap js -->
 <script type="text/javascript" src="js/createBodyRequest.js"></script>
-
+<script type="text/javascript" src="lib/notifix/dist/notiflix-2.5.0.min.js"></script>
+<script type="text/javascript" src="lib/notifix/dist/notiflix-aio-2.5.0.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
 <script type="text/javascript" src="actions/contact/contact-service.js"></script> <!-- bootstrap js -->
 <script type="text/javascript" src="actions/contact/contact.js"></script>
+
+<script src="lib/JsValidation/js-form-validator.js"></script>
+<script>
+    new Validator(document.querySelector('#contact-form'), function (err, res) {
+        debugger;
+        return res;
+    });
+</script>
 <!-- END My JavaScript -->
 <!-- end jquery -->
 </body>

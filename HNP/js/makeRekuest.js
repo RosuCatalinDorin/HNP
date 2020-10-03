@@ -11,7 +11,8 @@ var makeAjaxRequest = (function($) {
             }).done(response => {
                 return response;
             }).fail((jqXHR) => {
-                return "ERROR FROM REQUEST";
+                Preloader.hidePreloader();
+                Message.errorMessage(jqXHR);
             });
         }
     }

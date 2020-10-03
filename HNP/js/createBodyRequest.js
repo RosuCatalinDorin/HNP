@@ -15,50 +15,14 @@ var setAjaxCall = (function() {
     data: "",
     headers: {
         "accept": "application/json",
-        "Access-Control-Allow-Origin":"*",
-        "Access-Control-Request-Headers":"access-control-allow-origin",
+        "Access-Control-Allow-Origin":"*"
     },
     files: ""
   };
 
   return {
-    getCoursesDAL: () => {
-      params.method = "GET";
-      params.url += links.getCourses;
-      return makeAjaxRequest.makeRequest(params).then(function(response) {
-        return response;
-      });
-    },
 
-    getCourseByIdDAL: (id) => {
-      params.method = "GET";
-      params.url += links.getCourseById + id;
-      return makeAjaxRequest.makeRequest(params).then(function(response) {
-        return response;
-      });
-    },
-
-    enrollCourseDAL: (data) => {
-        params.method = "POST";
-        params.url = "";
-        params.url += links.enrollCourse;
-        params.data = data;
-        return makeAjaxRequest.makeRequest(params).then(function(response) {
-          return response;
-        });
-    },
-
-    sendEmailDAL: (data) => {
-        params.method = "POST";
-        params.url = "";
-        params.url += links.sendEmail;
-        params.data =  JSON.stringify(data);
-        return makeAjaxRequest.makeRequest(params).then(function(response) {
-          return response;
-        });
-    },
       sendDataContact: (data) => {
-        debugger;
           params.method = "POST";
           params.url = "";
           params.url += links.addContactUs;
@@ -68,4 +32,5 @@ var setAjaxCall = (function() {
           });
       },
   };
+
 })();

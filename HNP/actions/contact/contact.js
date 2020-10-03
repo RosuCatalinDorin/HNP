@@ -1,8 +1,9 @@
 $(document).ready(function() {
     $("#sendContact").on("click", function() {
+        Preloader.showPreloader();
         detaliiContactService.addContact(sendMessage()).then(function(response) {
-            debugger;
-            // ne apare un mesaj de succes care se inchide in cateva secunde
+            Preloader.hidePreloader();
+            Message.succesMessage(response.text);
         });
     });
     let sendMessage = function () {
