@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HNP/actions/contact/contact-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/actions/contact/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/js/createBodyRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HNP/js/makeRekuest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/css/myCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/myCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HNP/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -54,6 +58,7 @@
       <recent name="C:\xampp\htdocs\HNP\HNP\actions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HNP\js" />
       <recent name="C:\xampp\htdocs\HNP\HNP" />
       <recent name="C:\xampp\htdocs\HNP\HTML\js" />
       <recent name="C:\xampp\htdocs\HNP\HNP\view\produse" />
@@ -93,7 +98,7 @@
       <workItem from="1601392205063" duration="4941000" />
       <workItem from="1601450262779" duration="20000" />
       <workItem from="1601479643723" duration="3812000" />
-      <workItem from="1601486024779" duration="10635000" />
+      <workItem from="1601486024779" duration="26310000" />
     </task>
     <servers />
   </component>
@@ -141,6 +146,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598715920643" />
+    <state x="623" y="-868" width="672" height="678" key="search.everywhere.popup" timestamp="1601671448496">
+      <screen x="0" y="-1095" width="1920" height="1050" />
+    </state>
+    <state x="623" y="-868" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.-1095.1920.1050" timestamp="1601671448496" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

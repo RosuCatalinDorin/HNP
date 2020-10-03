@@ -28,6 +28,7 @@ Author: udayraj
     <!-- theme style -->
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../node_modules/chart.js/dist/Chart.js"></script>
 
     <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -52,7 +53,48 @@ Author: udayraj
 <!-- end head -->
 <!--body start-->
 <body>
+<!--<canvas id="myChart"></canvas>
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
 
+    data = {
+        datasets: [{
+            data: [10, 20, 30,100],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)'
+            ],
+
+        }
+
+        ],
+
+        // These labels appear in the legend and in the tooltips when hovering different arcs
+        labels: [
+            'Red',
+            'Yellow',
+            'Blue',
+            'Black'
+        ],
+
+    };
+    var options = {}
+
+    var chart2 = new Chart(ctx, {
+        data: data,
+        type: 'pie',
+        options: options
+    });
+
+</script>-->
 <!-- preloader -->
 <div class="preloader">
     <div class="status">
@@ -486,6 +528,11 @@ Author: udayraj
 <script type="text/javascript" src="js/jquery.counterup.js"></script> <!-- facts count js-->
 <script type="text/javascript" src="js/price-slider.js"></script> <!-- price slider / filter js-->
  <!-- custom js -->
+<!-- My JavaScript -->
+
+<script type="text/javascript" src="js/makeRekuest.js"></script> <!-- bootstrap js -->
+<script type="text/javascript" src="js/createBodyRequest.js"></script>
+<!-- END My JavaScript -->
 <!-- end jquery -->
 <script type="text/javascript" src="js/functions.js"></script>
 </body>
