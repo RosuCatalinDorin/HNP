@@ -1,82 +1,53 @@
-<link
-  href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-  rel="stylesheet"
-  id="bootstrap-css"
-/>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-<style>
-  header {
-    position: relative;
-    background-color: black;
-    height: 75vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
-
-  header .container {
-    position: relative;
-    z-index: 2;
-  }
-
-  header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
-  }
-
-  @media (pointer: coarse) and (hover: none) {
-    header {
-      background: url("http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg")
-        black no-repeat center center scroll;
-    }
-    header video {
-      display: none;
-    }
-  }
-</style>
-
-<header>
-  <div class="overlay"></div>
-  <video
-    playsinline="playsinline"
-    autoplay="autoplay"
-    muted="muted"
-    loop="loop"
-  >
-    <source
-      src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-      type="video/mp4"
-    />
-  </video>
-  <div class="container h-100">
-    <div class="d-flex text-center h-100">
-      <div class="my-auto w-100 text-white">
-        <h1 class="display-3">Video Header</h1>
-        <h2>With HTML5 Video and Bootstrap 4</h2>
-      </div>
-    </div>
-  </div>
-</header>
+<html>
+<head>
+    <title>reCAPTCHA demo: Explicit render for multiple widgets</title>
+    <script type="text/javascript">
+        var verifyCallback = function(response) {
+            alert(response);
+        };
+        var widgetId1;
+        var widgetId2;
+        var onloadCallback = function() {
+            // Renders the HTML element with id 'example1' as a reCAPTCHA widget.
+            // The id of the reCAPTCHA widget is assigned to 'widgetId1'.
+            widgetId1 = grecaptcha.render('example1', {
+                'sitekey' : '6LeCn9MZAAAAAE-J2tSDqa15Qrl2lzrgPXEjWXp0',
+                'theme' : 'light'
+            });
+            widgetId2 = grecaptcha.render(document.getElementById('example2'), {
+                'sitekey' : '6LeCn9MZAAAAAE-J2tSDqa15Qrl2lzrgPXEjWXp0'
+            });
+            grecaptcha.render('example3', {
+                'sitekey' : '6LeCn9MZAAAAAE-J2tSDqa15Qrl2lzrgPXEjWXp0',
+                'callback' : verifyCallback,
+                'theme' : 'dark'
+            });
+        };
+    </script>
+</head>
+<body>
+<!-- The g-recaptcha-response string displays in an alert message upon submit. -->
+<form action="javascript:alert(grecaptcha.getResponse(widgetId1));">
+    <div id="example1"></div>
+    <br>
+    <input type="submit" value="getResponse">
+</form>
+<br>
+<!-- Resets reCAPTCHA widgetId2 upon submit. -->
+<form action="javascript:grecaptcha.reset(widgetId2);">
+    <div id="example2"></div>
+    <br>
+    <input type="submit" value="reset">
+</form>
+<br>
+<!-- POSTs back to the page's URL upon submit with a g-recaptcha-response POST parameter. -->
+<form action="?" method="POST">
+    <div id="example3"></div>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+</script>
+</body>
+</html>

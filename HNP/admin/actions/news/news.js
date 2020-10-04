@@ -1,11 +1,9 @@
 $(document).ready(function() {
     $("#button-privew").on("click", function() {
-        showPriview(getHtmlNews())
+        newsActions.showNewsPriview(newsActions.getHtmlNews());
     });
-    let showPriview = function (code) {
-        document.getElementById('previewNews').innerHTML = code
-    };
-    let getHtmlNews = function () {
-        return $('#summernote').summernote('code');
-    }
+    $("#button-save").on("click", function() {
+        Confirm.confirmHnp("Confirm","Confirmati salvarea?",newsActions.saveNews,function () {});
+        newsActions.showNewsPriview(newsActions.getHtmlNews());
+    });
 });

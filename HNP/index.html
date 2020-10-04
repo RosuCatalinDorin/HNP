@@ -95,14 +95,7 @@ Author: udayraj
     });
 
 </script>-->
-<!-- preloader -->
-<div class="preloader">
-    <div class="status">
-        <div class="status-message">
-        </div>
-    </div>
-</div>
-<!-- end preloader -->
+
 <!--  top bar -->
 
 <!--  end top bar -->
@@ -139,7 +132,7 @@ Author: udayraj
 
     </div>
 </section>-->
-<div class="nav-bar ">
+<div class="nav-bar custom-navbar navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="row">
         <div class="col-sm-4 logoContainer" >
@@ -158,7 +151,7 @@ Author: udayraj
                         <li><a href="index.html">ACASA</a></li>
                         <li><a href="produse.html">PRODUSE</a></li>
                         <li><a href="servicii.html">SERVICII</a></li>
-                        <li><a href="#">NOUTATI</a></li>
+                        <li><a href="noutati.html">NOUTATI</a></li>
                         <li><a href="contact.html">CONTACT</a></li>
                     </ul>
                 </div>
@@ -530,14 +523,17 @@ Author: udayraj
  <!-- custom js -->
 <!-- My JavaScript -->
 
-<script type="text/javascript" src="js/makeRekuest.js"></script> <!-- bootstrap js -->
-<script type="text/javascript" src="js/createBodyRequest.js"></script>
+<script type="text/javascript" src="ajaxCall/makeRekuest.js"></script> <!-- bootstrap js -->
+<script type="text/javascript" src="ajaxCall/createBodyRequest.js"></script>
 
 <link href="lipbs/notification/dist/simpleSnackbar.css" rel="stylesheet" />
 <script src="lipbs/notification/dist/simpleSnackbar.js"></script>
 <!-- END My JavaScript -->
 <!-- end jquery -->
 <script type="text/javascript" src="js/functions.js"></script>
+<script>
+    Preloader.showPreloader()
+</script>
 </body>
 <!--body end -->
 </html>

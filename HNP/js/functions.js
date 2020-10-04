@@ -1,24 +1,38 @@
-var Preloader =(function () {
+var Preloader = (function () {
     "use strict";
     return {
-        showPreloader : () =>{
-            Notiflix.Loading.Pulse({svgColor:'#ecc53f'});
+        showPreloader: () => {
+            Notiflix.Loading.Pulse({svgColor: '#ecc53f'});
         },
-        hidePreloader : () =>{
+        hidePreloader: () => {
             Notiflix.Loading.Remove();
         }
     };
 })();
 
-var Message =(function () {
+var Message = (function () {
     "use strict";
     return {
-        errorMessage : (jqXHR) =>{
-            Notiflix.Notify.Failure(jqXHR.status+" " +jqXHR.responseText);
+        errorMessage: (jqXHR) => {
+            Notiflix.Notify.Failure(jqXHR.status + " " + jqXHR.responseText);
         },
-        succesMessage : (message) =>{
+        succesMessage: (message) => {
             Notiflix.Notify.Success(message);
         }
     };
+})();
+var Confirm = (function () {
+    return {
+        confirmHnp: (title,message,yesFunction,noFunction) => {
+            Notiflix.Confirm.Show(
+                title,
+                message,
+                'Da',
+                'Nu',
+                yesFunction,
+                noFunction
+                );
+        }
+    }
 })();
 
