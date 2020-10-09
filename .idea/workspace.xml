@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/actions/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/actions/contact/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/ajaxCall/createBodyRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/ajaxCall/createBodyRequest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/css/myCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/myCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/noutati.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/noutati.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/produse.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +64,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\HNP\HNP\vertical-responsive-menu-master\demo" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\lib\JsValidation" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\lib\notifix" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\lipbs\notification" />
-      <recent name="C:\xampp\htdocs\HNP\HNP\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\HNP\HNP\actions\news" />
       <recent name="C:\xampp\htdocs\HNP\HNP" />
       <recent name="C:\xampp\htdocs\HNP\HNP\ajaxCall" />
       <recent name="C:\xampp\htdocs\HNP\HNP\admin\actions\news" />
       <recent name="C:\xampp\htdocs\HNP\HNP\admin\actions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HNP\HNP\vertical-responsive-menu-master\demo" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\lib\JsValidation" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\lib\notifix" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\lipbs\notification" />
+      <recent name="C:\xampp\htdocs\HNP\HNP\js" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -116,7 +115,7 @@
       <workItem from="1601486024779" duration="45912000" />
       <workItem from="1601807412981" duration="21259000" />
       <workItem from="1601885020516" duration="4476000" />
-      <workItem from="1602186549369" duration="3114000" />
+      <workItem from="1602186549369" duration="4470000" />
     </task>
     <servers />
   </component>
