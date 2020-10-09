@@ -185,6 +185,7 @@ and (max-width: 450px){
     }
     .video-container {
         margin: 0 auto;
+        padding-top: 170px;
     }
 }
 
@@ -208,7 +209,10 @@ and (max-width: 650px){
         display: block;
         padding-top: 30px;
     }
-
+    .video-container {
+        margin: 0 auto;
+        padding-top: 170px;
+    }
     .contentNavigation {
         background-color: white;
     }
@@ -224,6 +228,7 @@ and (max-width: 950px){
     .video-head{
         height: 26vh;
         min-height: 20rem;
+
     }
     .logoNavigation {
         display: none;

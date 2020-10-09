@@ -295,7 +295,14 @@ Author: udayraj
                     <h5 class="contact-heading">Trimite un mesaj</h5>
                     <p>Te rugăm să completezi câmpurile de mai jos pentru a ne trimite un mesaj.</p>
                 </div>
-                <form name="form" id="contact-form-2" onsubmit="return contactAction.addContact(this)">
+                <script>
+                    $('#contact-form-2').submit(function () {
+                        contactAction.addContact(this);
+                        return false;
+                    });
+                </script>
+                <form name="form"  method="post" id="contact-form-2" onsubmit="return false" >
+
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">

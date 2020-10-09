@@ -24,6 +24,7 @@ let contactAction = (function () {
     "use strict";
     return {
         addContact: (data) => {
+            data.action ="";
             debugger;
             Preloader.showPreloader();
             detaliiContactService.addContact(contactAction.sendMessage()).then(function(response) {

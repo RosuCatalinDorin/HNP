@@ -424,36 +424,7 @@ label span {
 /*===== Navigation =====*/
 /* ================================= */
 .nav-bar {
-  background: -moz-linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.05),
-      rgba(255, 255, 255, 0.05)
-    ),
-    linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
-  background: -webkit-linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.05),
-      rgba(255, 255, 255, 0.05)
-    ),
-    linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
-  background: -o-linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.05),
-      rgba(255, 255, 255, 0.05)
-    ),
-    linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
-  background: -ms-linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.05),
-      rgba(255, 255, 255, 0.05)
-    ),
-    linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
-  background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.05),
-      rgba(255, 255, 255, 0.05)
-    ),
-    linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background-color: white;
 }
 .info-nav {
   font-family: "Roboto", sans-serif;

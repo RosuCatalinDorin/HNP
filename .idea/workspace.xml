@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64da866-9ba9-4249-96fa-29acde0815ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HNP/actions/news/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/actions/news/news-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/actions/news/news.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/actions/news/newsComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/admin/actions/news/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/admin/actions/news/news-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HNP/noutati.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/actions/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/actions/contact/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/admin/actions/news/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/admin/actions/news/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/admin/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/admin/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/ajaxCall/createBodyRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/ajaxCall/createBodyRequest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HNP/css/myCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/myCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/js/createBodyRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/ajaxCall/createBodyRequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/js/makeRekuest.js" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/ajaxCall/makeRekuest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/produse.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/produse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/servicii.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/servicii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/tes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNP/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HNP/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HNP/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +114,9 @@
       <workItem from="1601450262779" duration="20000" />
       <workItem from="1601479643723" duration="3812000" />
       <workItem from="1601486024779" duration="45912000" />
-      <workItem from="1601807412981" duration="18761000" />
+      <workItem from="1601807412981" duration="21259000" />
+      <workItem from="1601885020516" duration="4476000" />
+      <workItem from="1602186549369" duration="3114000" />
     </task>
     <servers />
   </component>
@@ -183,11 +170,11 @@
     <state x="-741" y="-844" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1601830858563" />
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598739769940" />
     <state x="603" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1601481659624" />
-    <state x="656" y="-838" width="1080" height="537" key="find.popup" timestamp="1601734219208">
+    <state x="656" y="-838" width="1080" height="537" key="find.popup" timestamp="1602256340171">
       <screen x="0" y="-1095" width="1920" height="1050" />
     </state>
     <state x="-711" y="-633" width="607" height="965" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@-1080.-1096.1080.1890" timestamp="1600022501985" />
-    <state x="656" y="-838" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.-1095.1920.1050" timestamp="1601734219208" />
+    <state x="656" y="-838" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.-1095.1920.1050" timestamp="1602256340171" />
     <state x="656" y="257" width="1080" height="537" key="find.popup/0.0.1920.1050/0.-1095.1920.1050/-1080.-1096.1080.1890@0.0.1920.1050" timestamp="1600595667477" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050/890.-1080.1920.1050/-1030.-1093.1920.1050@0.0.1920.1050" timestamp="1598735738240" />
     <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599062122080" />
@@ -221,7 +208,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/HNP/admin/actions/news/news.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
