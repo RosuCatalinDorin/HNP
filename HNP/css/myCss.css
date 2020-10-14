@@ -116,24 +116,6 @@ google scrool BAR*/
 }
 
 
-
-/*
-@media only screen and (max-width: 600px) {
-    .logoNavigation {
-        display: none;
-    }
-
-    .logoContainer {
-        display: block;
-        padding-top: 30px;
-    }
-
-    .contentNavigation {
-        background-color: white;
-    }
-}
-*/
-
 @media only screen and (min-width: 1000px) {
     .nav-bar {
         padding: 0;
@@ -147,31 +129,6 @@ google scrool BAR*/
     }
 }
 
-/*@media only screen and (max-width: 1024px) {
-    .video-head .video {
-        min-width: 72.4%;
-    }
-    #cssmenu > ul > li {
-        margin-left: 0.4%;
-
-    }
-    .video-head{
-        min-height: 41rem;
-    }
-}*/
-
-
-@media (max-width: 768px) {
-    #cssmenu.small-screen #menu-button:before {
-        background: #000;
-    }
-    #cssmenu.small-screen #menu-button.menu-opened:before {
-        background: #000;
-    }
-    #cssmenu.small-screen #menu-button.menu-opened:after {
-        background: #000;
-    }
-}
 
 
 
@@ -202,6 +159,29 @@ and (max-width: 450px){
     .video-container {
         margin: 0 auto;
         padding-top: 170px;
+    }
+    .project-description{
+        padding-top: 30px;
+    }
+    .text-contact{
+        padding-top: 120px;
+    }
+}
+@media (max-width: 768px) {
+    #cssmenu.small-screen #menu-button:before {
+        background: #000;
+    }
+    #cssmenu.small-screen #menu-button.menu-opened:before {
+        background: #000;
+    }
+    #cssmenu.small-screen #menu-button.menu-opened:after {
+        background: #000;
+    }
+    .project-description{
+        padding-top: 30px;
+    }
+    .text-contact{
+        padding-top: 120px;
     }
 }
 
@@ -247,11 +227,11 @@ and (max-width: 950px){
 
     }
     .logoNavigation {
-        display: none;
+        display: none !important;
     }
 
     .logoContainer {
-        display: none;
+        display: block;
         padding-top: 0;
     }
 
