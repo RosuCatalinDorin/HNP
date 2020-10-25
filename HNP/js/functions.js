@@ -36,3 +36,27 @@ var Confirm = (function () {
     }
 })();
 
+var Functions = (function () {
+    return {
+        getCookie: (cname) =>{
+                var name = cname + "=";
+                var ca = document.cookie.split(';');
+                for(var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+        },
+        getUrlParam: (url,paramName) =>{
+            let urlObj = new URL(url);
+            debugger;
+            return urlObj.searchParams.get(paramName)
+
+        }
+    }
+}())

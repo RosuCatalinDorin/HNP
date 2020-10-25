@@ -47,7 +47,6 @@ Author: udayraj
     <!-- magnify popup css -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/myCss.css" rel="stylesheet" type="text/css"/>
-    <link href="css/news.css" rel="stylesheet" type="text/css"/>
     <!-- custom css -->
     <!-- end theme style -->
 </head>
@@ -77,7 +76,7 @@ Author: udayraj
         <div class="row">
             <div class="col-sm-4 logoContainer" >
                 <div class="logo">
-                    <a href="index.html"
+                    <a href="index.php"
                     ><img src="HNP_IMG/HNP_logoXS.png" alt="logo"
                     /></a>
                 </div>
@@ -115,20 +114,18 @@ Author: udayraj
     <div class="container">
         <div class="row">
             <div class="col-sm-9">
-               <!-- <h1>HNP <span class="badge badge-primary">NEWS</span></h1>-->
-<!--                -->
-                <div  id="allHnpNews"></div>
+                <div  id="newsDetails"></div>
             </div>
             <div class="col-sm-3">
                 <div class="news-list-sidebar">
-                   <!-- <div class="sidebar-widget search-widget">
+                    <div class="sidebar-widget search-widget">
                         <form class="search-form" method="post" action="#">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="search" placeholder="Search Here.....">
                                 <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                             </div>
                         </form>
-                    </div>-->
+                    </div>
                     <div id="topTreeNews" class="sidebar-widget rct-news-widget">
 
                     </div>
@@ -198,30 +195,13 @@ Author: udayraj
 <script src="ajaxCall/createBodyRequest.js"></script>
 <script type="text/javascript" src="lib/notifix/dist/notiflix-2.5.0.min.js"></script>
 <script type="text/javascript" src="lib/notifix/dist/notiflix-aio-2.5.0.min.js"></script>
-
 <!--end pages Scripts-->
-<script>
-    // INSERT JS HERE
 
-
-    // SOCIAL PANEL JS
-    const floating_btn = document.querySelector('.floating-btn');
-    const close_btn = document.querySelector('.close-btn');
-    const social_panel_container = document.querySelector('.social-panel-container');
-
-    floating_btn.addEventListener('click', () => {
-        social_panel_container.classList.toggle('visible')
-    });
-
-    close_btn.addEventListener('click', () => {
-        social_panel_container.classList.remove('visible')
-    });
-</script>
 <!-- Scripts curent page-->
 <script src="actions/news/functions.js"></script>
 <script src="actions/news/news-service.js"></script>
 <script src="actions/news/newsComponent.js"></script>
-<script src="actions/news/news.js"></script>
+<script src="actions/news/newsDetails.js"></script>
 
 </body>
 <!--body end -->

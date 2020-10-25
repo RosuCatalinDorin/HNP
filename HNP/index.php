@@ -1,3 +1,9 @@
+<?php
+
+require_once("php/rest_call.php")
+
+?>
+
 <!DOCTYPE html>
 <!--
 **********************************************************************************************************
@@ -85,7 +91,7 @@ Author: udayraj
       <div class="row">
         <div class="col-sm-4 logoContainer" >
           <div class="logo">
-            <a href="index.html"><img src="HNP_IMG/HNP_logoXS.png" alt="logo"/></a>
+            <a href="index.php"><img src="HNP_IMG/HNP_logoXS.png" alt="logo"/></a>
           </div>
         </div>
         <div class="col-sm-10 pad-0">
@@ -96,7 +102,7 @@ Author: udayraj
                </div>
                 <div id="cssmenu" >
                     <ul>
-                        <li><a href="index.html">ACASA</a></li>
+                        <li><a href="index.php">ACASA</a></li>
                         <li><a href="produse.html">PRODUSE</a></li>
                         <li><a href="servicii.html">SERVICII</a></li>
                         <li><a href="noutati.html">NOUTATI</a></li>
@@ -338,7 +344,7 @@ Author: udayraj
         <div id="featured-slider" class="featured-slider">
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l1.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l1.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                 <!-- <div class="featured-dtl">
@@ -348,7 +354,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l2.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l2.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">
@@ -358,7 +364,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l3.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l3.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">
@@ -368,7 +374,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l4.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l4.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">
@@ -378,7 +384,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l5.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l5.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">
@@ -388,7 +394,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l6.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l6.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">
@@ -398,7 +404,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l7.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l7.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">
@@ -408,7 +414,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l8.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l8.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">
@@ -418,7 +424,7 @@ Author: udayraj
             </div>
             <div class="item featured-block">
                 <div class="featured-img">
-                    <img src="HNP_IMG/parteners/l9.png" class="img-responsive" alt="featured">
+                    <img src="HNP_IMG/parteners/l9.png" style="height: 60px" class="img-responsive" alt="featured">
                     <div class="overlay-bg"></div>
                 </div>
                  <!--<div class="featured-dtl">

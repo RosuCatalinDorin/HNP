@@ -6,5 +6,10 @@ var hnpNewsService = (function () {
                 return response;
             })
         },
+        getNewsDetails: (id) => {
+            return setAjaxCall.getNewsDetails(id).then(function(response) {
+                return response;
+            })
+        },
     }
 })($);
